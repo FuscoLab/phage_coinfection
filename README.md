@@ -3,7 +3,7 @@ Codes for "Preventing co-infection: a viral strategy with short-term benefits an
 
 - [bioXiv preprint](https://www.biorxiv.org)
 
-Impotant Note: The code in this repository is currently not well commented (if at all).
+Impotant Note: The code in this repository is currently not well commented (if at all). The scripts will also be a bit of a mess.
 
 ## Sections:
 
