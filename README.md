@@ -1,7 +1,7 @@
 # Preventing co-infection: a viral strategy with short-term benefits and long-term drawbacks
 Codes for "Preventing co-infection: a viral strategy with short-term benefits and long-term drawbacks" by Michael Hunter and Diana Fusco
 
-- [bioXiv preprint](https://www.biorxiv.org)
+- [bioXiv preprint](https://doi.org/10.1101/2021.09.07.458886)
 
 Impotant Note: The code in this repository is currently not well commented (if at all). The scripts will also be a bit of a mess.
 
