@@ -21,12 +21,20 @@ Viral co-infection occurs when multiple distinct viral particles infect the same
 
 ## Stochastic simulations
 
-This folder contains all of the scripts required to run the stochastic simulations used to measure: 1) the decay of heterozygosity, 2) the phage growth rate, 3) the phage fitness in a competative setting and 4) the fixation probability of individual mutants.
+All of the scripts required to run the stochastic simulations used in this work are contained in the `Stochastic_sims` directory.
+
+The scripts can measure the following properties:
+1) decay of heterozygosity: `co_het.py` `nonco_het.py`
+2) the phage growth rate: `growth_rate.py`
+3) the phage fitness in a competative setting: `co_scomp.py` `nonco_scomp.py`
+4) the fixation probability of individual mutants: `Wellmixed_co.py` `Wellmixed_nonco.py` `Wellmixed_noncoM_coWT.py` `Wellmixed_noncoWT_coM.py`
+
+In all of the above scripts, `co` and `nonco` indicate whether the population allows or prevents co-infection respectively. In the simulations where the mutant `M` and resident `WT` phage differ in their ability to prevent co-infection, this is also indicated. 
 
 
 ## Analysis
 
-Code for Analysis
+All of the scripts required to analyse the results of the stochastic simulations used in this work are contained in the `Analysis` directory.
 
 
 ## ODE model
