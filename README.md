@@ -31,6 +31,9 @@ The scripts can measure the following properties:
 
 In all of the above scripts, `co` and `nonco` indicate whether the population allows or prevents co-infection respectively. In the simulations where the mutant `M` and resident `WT` phage differ in their ability to prevent co-infection, this is also indicated. 
 
+The scripts can be run using the following input parameters:
+1) `python co_het.py A B_0 \beta $\tau$`
+
 
 ## Analysis
 
