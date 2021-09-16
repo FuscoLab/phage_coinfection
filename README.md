@@ -33,8 +33,19 @@ In all of the above scripts, `co` and `nonco` indicate whether the population al
 
 The scripts can be run using the following input parameters:
 1) `python (non)co_het.py A B0 beta alpha tau repeat`
-2) `python growth_rate.py A B0 beta tau alpha repeat`
+2) ...
 3) ...
+
+In all of the above, the symbols have the following meanings:
+1) `A`: random number seed (array index for array submissions)
+2) `B0`: initial number of bacteria
+3) `beta`: phage burst size
+4) `alpha`: phage adsorption rate
+5) `tau`: phage lysis time
+6) `repeat`: number of simulation repeats 
+
+The output of the above scripts are all text files and have the following form:
+1) `(non)co_het.py`: `mean heterozygosity`; `fraction of sims with non-zero heterozygosity`
 
 
 ## Analysis
