@@ -55,6 +55,7 @@ The output of all of the scripts is either printed to the terminal or in a text 
 3) `(non)co_scomp`: `selective (dis)advantage`, `error on mean`
 4) `Wellmixed_(non)co.py`: `V_ss`; `dV_ss`; `M_0`; `M_0/V_ss`; `n_fix`; `P_fix`; `T_fix`
 5) ...
+
 where the results for 4) and 5) are given as a list of averages per steady state.
 
 
