@@ -35,7 +35,8 @@ The scripts can be run using the following input parameters:
 1) `python (non)co_het.py A B0 beta alpha tau repeat`
 2) `python growth_rate.py A B0 beta alpha tau repeat`
 3) `python (non)co_scomp.py A B0 beta_M beta_WT alpha_M alpha_WT tau_M tau_WT r0 dr0 repeat`
-4) ...
+4) `python Wellmixed_(non)co.py A B0 beta_M beta_WT alpha_M alpha_WT tau_M tau_WT repeat repeat_sub`
+5) ...
 
 In all of the above, the symbols have the following meanings:
 1) `A`: random number seed (array index for array submissions)
@@ -46,12 +47,15 @@ In all of the above, the symbols have the following meanings:
 6) `r0`: exponential growth rate of phage at low density
 7) `dr0`: error on r0
 8) `repeat`: number of simulation repeats 
+9) `repeat_sub`: the number of repeats per steady-state simulated
 
 The output of all of the scripts is either printed to the terminal or in a text file, and have the following form:
 1) `(non)co_het.py`: `mean heterozygosity`; `fraction of sims with non-zero heterozygosity`
 2) `growth_rate.py`: `mean growth rate`, `error on mean`
 3) `(non)co_scomp`: `selective (dis)advantage`, `error on mean`
-4) ...
+4) `Wellmixed_(non)co.py`: `V_ss`; `dV_ss`; `M_0`; `M_0/V_ss`; `n_fix`; `P_fix`; `T_fix`
+5) ...
+where the results for 4) and 5) are given as a list of averages per steady state.
 
 
 With the 
