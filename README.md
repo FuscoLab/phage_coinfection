@@ -63,7 +63,7 @@ The results in each row of 4) and 5) represent the average of the `repeat_sub` i
 4) `f_0`: initial frequency of mutant in free phage population
 5) `n_fix`: number of mutant fixation events
 6) `P_fix`: frequency of mutant fixation events
-7) T_fix`: mean time to mutant fixation
+7) `T_fix`: mean time to mutant fixation
 
 
 
