@@ -70,7 +70,9 @@ The results in each row of 4) and 5) represent the average of the `repeat_sub` i
 
 ## Analysis
 
-All of the scripts required to analyse the results of the stochastic simulations used in this work are contained in the `Analysis` directory.
+These scripts can be used to analyse the outputs of the heterozygosity and stochastic simulations described above.
+
+`data_coinfection.mlx` can be run in a folder containing all of the `.txt` files output by `Wellmixed_(non)co.py` and `Wellmixed_noncoWT(M)_coM(WT).py`. It will then save the all of the information in the multiple `.txt` files in one `.mat` file.
 
 
 ## ODE model
