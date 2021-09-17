@@ -79,4 +79,4 @@ Similar functions are performed by the `Het_analysis.mlx` and `Het_plot.mlx` scr
 
 ## ODE model
 
-Code for ODE
+The live script `ODE_model.mlx` can be run to observe the average behaviour of the model for a given set of parameters (defined at the start of the live script).
