@@ -36,7 +36,7 @@ The scripts can be run using the following input parameters:
 2) `python growth_rate.py A B0 beta alpha tau repeat`
 3) `python (non)co_scomp.py A B0 beta_M beta_WT alpha_M alpha_WT tau_M tau_WT r0 dr0 repeat`
 4) `python Wellmixed_(non)co.py A B0 beta_M beta_WT alpha_M alpha_WT tau_M tau_WT repeat repeat_sub`
-5) ...
+5) `python Wellmixed_noncoWT(M)_coM(WT).py A B0 beta_M beta_WT alpha_M alpha_WT tau_M tau_WT repeat repeat_sub`
 
 In all of the above, the symbols have the following meanings:
 1) `A`: random number seed (array index for array submissions)
@@ -53,13 +53,19 @@ The output of all of the scripts is either printed to the terminal or in a text 
 1) `(non)co_het.py`: `mean heterozygosity`; `fraction of sims with non-zero heterozygosity`
 2) `growth_rate.py`: `mean growth rate`, `error on mean`
 3) `(non)co_scomp`: `selective (dis)advantage`, `error on mean`
-4) `Wellmixed_(non)co.py`: `V_ss`; `dV_ss`; `M_0`; `M_0/V_ss`; `n_fix`; `P_fix`; `T_fix`
-5) ...
+4) `Wellmixed_(non)co.py`: `V_ss`; `dV_ss`; `M_0`; `f_0`; `n_fix`; `P_fix`; `T_fix`
+5) `Wellmixed_noncoWT(M)_coM(WT).py`: same as 4)
 
-where the results for 4) and 5) are given as a list of averages per steady state.
+The results in each row of 4) and 5) represent the average of the `repeat_sub` instances per steady-state. In the above, the symbols have the following meanings:
+1) `V_ss`: steady-state number of phage
+2) `dV_ss`: error on V_ss
+3) `M_0`: number of mutants introduced
+4) `f_0`: initial frequency of mutant in free phage population
+5) `n_fix`: number of mutant fixation events
+6) `P_fix`: frequency of mutant fixation events
+7) T_fix`: mean time to mutant fixation
 
 
-With the 
 
 
 ## Analysis
