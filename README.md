@@ -72,7 +72,9 @@ The results in each row of 4) and 5) represent the average of the `repeat_sub` i
 
 These scripts can be used to analyse the outputs of the heterozygosity and stochastic simulations described above.
 
-`data_coinfection.mlx` can be run in a folder containing all of the `.txt` files output by `Wellmixed_(non)co.py` and `Wellmixed_noncoWT(M)_coM(WT).py`. It will then save the all of the information in the multiple `.txt` files in one `.mat` file. This file can then be analysed using the `Results_coinfection.mlx` which will output the the mean `V_ss`, `f_0`, `P_fix` and their associated errors from all of the simulations carried out.
+`data_coinfection.mlx` can be run in a folder containing all of the `.txt` files output by `Wellmixed_(non)co.py` and `Wellmixed_noncoWT(M)_coM(WT).py`. It will then save the all of the information in the multiple `.txt` files in one `.mat` file. This file can then be analysed using `Results_coinfection.mlx` which will output the the mean `V_ss`, `f_0`, `P_fix` and their associated errors from all of the simulations carried out.
+
+Similar functions are performed by the `Het_analysis.mlx` and `Het_plot.mlx` scripts for the heterozygosity data. `data_coinfection.mlx` can be run in a folder containing all of the `.txt` files output by `(non)co_het.py`. It will then save the all of the information in the multiple `.txt` files in one `.mat` file. This file can then be analysed using `Het_plot.mlx` which will output the effective population size based on the data and parameters defined in the live script.
 
 
 ## ODE model
