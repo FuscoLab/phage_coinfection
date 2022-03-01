@@ -11,6 +11,7 @@ Codes for "Superinfection exclusion: a viral strategy with short-term benefits a
 - [Stochastic simulations](#stochastic-simulations)
 - [Analysis](#analysis)
 - [ODE model](#ode-model)
+- [Update 01Mar22](#update-01mar22)
 
 
 ## Abstract
@@ -65,8 +66,6 @@ The results in each row of 4) and 5) represent the average of the `repeat_sub` i
 7) `T_fix`: mean time to mutant fixation
 
 
-
-
 ## Analysis
 
 These scripts can be used to analyse the outputs of the heterozygosity and stochastic simulations described above.
@@ -79,3 +78,12 @@ Similar functions are performed by the `Het_analysis.mlx` and `Het_plot.mlx` scr
 ## ODE model
 
 The live script `ODE_model.mlx` can be run to observe the average behaviour of the model for a given set of parameters (defined at the start of the live script).
+
+
+## Update 01Mar22
+
+All of the scripts required to run the stochastic simulations in the updated manuscript. There are two new variants:
+1) `newgrowth`: this alters how the bacteriophage grow while inside the host. They now grow at rates determined by their own parameters, rather than the parameters of the first phage to infect.
+2) `stochastictime`: this introduces stochasticity in lysis timing, which is not present in other realisations of the model. Here, lysis time is drawn from a normal distribution.
+
+The input/output of each of these scripts is in the same format as previous versions, and so analysis scripts remain unchanged.
